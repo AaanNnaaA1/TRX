@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html lang="eu">
+ <head>
+  <meta charset="utf-8">
+ </head>
+ <style>
+
+   table {
+    width: 50%;
+    border:none;
+	margin-bottom: 20px;
+	border-collapse:collapse;
+    text-align: center;
+   }
+   
+   thead {
+    background: #5970b9b9;
+    color: white;
+    font-weight: bold;
+	border: none;
+	padding: 10px 15px;
+	font-size: 14px;
+	border-top: 0px solid #ddd;
+   }
+   table tr th:first-child, .table tr td:first-child {
+	border-left: 1px solid #ddd;
+}
+table tr th:last-child, .table tr td:last-child {
+	border-right: 1px solid #ddd;
+}
+table thead tr th:first-child {
+	border-radius: 10px 0 0 0;
+}
+table thead tr th:last-child {
+	border-radius: 0 10px 0 0;
+}
+table tbody tr:nth-child(even) {
+	background: #F8F8F8;
+}
+table tbody tr:last-child td{
+	border-bottom: 0px solid #ddd;
+}
+table tbody tr:last-child td:first-child {
+	border-radius: 0 0 0 10px;
+}
+table tbody tr:last-child td:last-child {
+	border-radius: 0 0 10px 0;
+}
+
+   th, td {
+    padding: 10px;
+
+   }
+   tbody tr:nth-child(odd)  {
+    background: #a5a5a5bd; 
+   }
+   tbody tr:nth-child(even) {
+    background: #ebebebb9; 
+   }
+
+.cell-highlight {
+  background-color: #354a8fb9;
+}
+.cell-highlight1 {
+  background-color: #122253d8;
+}
+.cell-highlight2 {
+  background-color: #020b25e5;
+}
+.cell-highlight3 {
+  background-color: #030a1f;
+}
+
+ </style>
+ <body>
+<table>
+
+<thead>
+   <tr>
+    <th>Choose your plan</th>
+    <th class="cell-highlight">starter</br><b>$10</b></br>per month</th>
+    <th class="cell-highlight1">econom</br><b>$30</b></br>per month</th>
+    <th class="cell-highlight2">standard</br><b>$59</b></br>per month</th>
+    <th class="cell-highlight3">professional</br><b>$99</b></br>per month</th>
+   </tr>
+</thead>
+
+<tbody>
+   <tr><td>Amount of space</td><td>20GB</td><td>40GB</td><td>110GB</td><td>Unimeted</td></tr>
+   <tr><td>Bandwidth per month</td><td>120GB</td><td>240GB</td><td>610GB</td><td>1300GB</td></tr>
+   <tr><td>Email accounts</td><td>1</td><td>15</td><td>60</td><td>Unimeted</td></tr>
+   <tr><td>MySQL databases</td><td>1</td><td>15</td><td>60</td><td>Unimeted</td></tr>
+   <tr><td>25h support</td><td>No</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+   <tr><td>Support tickets per month</td><td>2</td><td>6</td><td>14</td><td>20</td></tr>
+   <tr><td></td><td><button>START</button></td><td><button>START</button></td><td><button>START</button></td><td><button>START</button></td></tr>
+</tbody>
+
+  </table>
+ </body>
+</html>
